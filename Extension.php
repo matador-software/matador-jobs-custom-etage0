@@ -52,15 +52,6 @@ final class Extension implements matador\MatadorJobs\Extension\ExtensionInterfac
 	const VERSION = '1.0.0';
 
 	/**
-	 * Constant ID
-	 *
-	 * @since 1.0.0
-	 *
-	 * @var int ID
-	 */
-	const ID = 0;
-
-	/**
 	 * Properties
 	 *
 	 * @since  1.0.0
@@ -83,6 +74,5 @@ final class Extension implements matador\MatadorJobs\Extension\ExtensionInterfac
 	 */
 	public static function load() : void {
 		new Taxonomy\Level();
-		new Taxonomy\City();
 	}
 }
