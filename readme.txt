@@ -4,9 +4,9 @@
 - Donate Link: https://matadorjobs.com
 - Tags: jobs, bullhorn
 - Requires at least: 5.0
-- Tested up to: 5.6.1
+- Tested up to: 5.7.0
 - Stable tag: 1.0.0
-- Requires PHP: 7.0
+- Requires PHP: 7.1
 - Matador Jobs Version Required: 3.7.0
 - License: GPLv3 or later
 - License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -15,7 +15,7 @@ Extends Matador Jobs for custom features as requested by Etage0
 
 == Description ==
 
-Extends Matador Jobs for custom features as requested by Etage0
+Extends Matador Jobs to add an additional Taxonomy (and filtering option) based on Career Level. For Etage0, the values for this custom filter are tied to their Bullhorn's customText12 field.
 
 == Installation ==
 
@@ -46,6 +46,6 @@ Users of Matador Jobs Pro Plugins can use our support system on http://www.matad
 
 == Changelog ==
 
-= 1.0.0 : 2021-02-17 =
+= 1.0.0 : 2021-03-03 =
 
 Initial Release
